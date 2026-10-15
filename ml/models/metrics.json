@@ -1,0 +1,17 @@
+{
+  "algorithm": "RandomForestRegressor",
+  "n_estimators": 25,
+  "max_depth": 8,
+  "train_rows": 15744,
+  "test_rows": 3936,
+  "mae": 0.909,
+  "r2": 0.9761,
+  "feature_importance": {
+    "day": 0.0003,
+    "hour": 0.0013,
+    "stop": 0.0002,
+    "scheduled": 0.9814,
+    "absent": 0.0166,
+    "exam_week": 0.0002
+  }
+}
